@@ -1,0 +1,18 @@
+{
+  "name": "samanthadegges-www",
+  "version": "1.0.0",
+  "description": "Sami's personal website.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samantha Degges",
+  "license": "UNLICENSE",
+  "dependencies": {
+    "connect": "^3.3.3",
+    "gulp": "^3.8.10",
+    "gulp-awspublish": "0.0.23",
+    "gulp-livereload": "^2.1.1",
+    "serve-static": "^1.7.1"
+  }
+}
