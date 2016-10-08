@@ -221,6 +221,7 @@ section.contactme {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
+    border-radius: 50%;
 }
 
 .portfolio .portfolio-item .portfolio-link .caption:hover {
@@ -460,7 +461,6 @@ footer .footer-below {
     background-color: #fff;
 }
 
-
 .dark-theme {
   	color: #fff;
     background-color: #233140 !important;
@@ -479,4 +479,24 @@ footer .footer-below {
   padding: .5em;
   border: .6em solid;
   border-color:  #2c3e50;;
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio .portfolio-item .portfolio-link .caption {
+  opacity: 1;
+  border-radius: 50%;
+  }
+  .portfolio .portfolio-item .portfolio-link .caption:hover {
+ opacity: .8;
+ border-radius: 50%;
+ }
+}
+
+iframe {
+  border: .35em solid #b3b0af;
+}
+
+.featureBorder {
+  border: 5px solid #b3b0af;
+  padding-top: 6px;
 }
